@@ -39,9 +39,56 @@ The compiled JavaScript files will be generated in the `build` directory.
 ## Run with MCP Inspector
 ## MCP Inspector
 
+## MCP Inspector
+
 The MCP server was tested successfully using MCP Inspector.
 
-![MCP Inspector showing add_note and list_notes](mcp-inspector.PNG)
+### Inspector Overview
+
+![MCP Inspector showing available tools](mcp-inspector.PNG)
+
+### add_note
+
+The `add_note` tool was tested with the note:
+
+`My first MCP note`
+
+![add_note test](add_note.png)
+
+### list_notes
+
+The `list_notes` tool successfully returned the stored note:
+
+`1. My first MCP note`
+
+![list_notes test](list_notes.PNG)
+### Available Tools
+
+The server exposes two tools:
+
+- `add_note` — stores a short text note in memory.
+- `list_notes` — returns all stored notes.
+
+### Inspector Overview
+
+![MCP Inspector showing available tools](mcp-inspector.PNG)
+
+### add_note
+
+The `add_note` tool was tested with the note:
+
+`My first MCP note`
+
+![add_note test](add_note.png)
+
+### list_notes
+
+The `list_notes` tool successfully returned the stored note:
+
+`1. My first MCP note`
+
+![list_notes test](list_notes.PNG)
+>>>>>>> 4772c6a (Add MCP tool test screenshots)
 
 Start the server using MCP Inspector:
 
