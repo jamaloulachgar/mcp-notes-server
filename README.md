@@ -41,7 +41,7 @@ The compiled JavaScript files will be generated in the `build` directory.
 
 The MCP server was tested successfully using MCP Inspector.
 
-![MCP Inspector showing add_note and list_notes](mcp-inspector.png)
+![MCP Inspector showing add_note and list_notes](mcp-inspector.PNG)
 
 Start the server using MCP Inspector:
 
