@@ -37,6 +37,11 @@ npm run build
 The compiled JavaScript files will be generated in the `build` directory.
 
 ## Run with MCP Inspector
+## MCP Inspector
+
+The MCP server was tested successfully using MCP Inspector.
+
+![MCP Inspector showing add_note and list_notes](mcp-inspector.png)
 
 Start the server using MCP Inspector:
 
